@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SmartCity" />
+        <module name="Carte" />
+        <module name="Database" />
+        <module name="PDF" />
+        <module name="View" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="Carte" target="1.8" />
+      <module name="Database" target="1.8" />
+      <module name="PDF" target="1.8" />
       <module name="SmartCity" target="1.8" />
+      <module name="View" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

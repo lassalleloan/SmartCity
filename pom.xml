@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.loanlassalle.app</groupId>
     <artifactId>SmartCity</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -18,4 +19,17 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>Carte</module>
+        <module>Database</module>
+        <module>View</module>
+        <module>PDF</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.loanlassalle.app</groupId>
+            <artifactId>View</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
