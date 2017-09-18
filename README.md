@@ -1,4 +1,4 @@
-# SmartCity
+# SmartCity :: A manager of queries from different actors of the current society destined for a city
 Authors: Camilo Pineda Serna, Jérémie Zanone, Loan Lassalle, Luana Martelli, Tano Iannetta and Wojciech Myszkorowski
 
 
